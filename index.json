@@ -17,5 +17,24 @@
     "binary_url": "https://github.com/Anthill-Software/GatherPipe-Dummy-Driver/releases/download/v{{.Version}}/dummy-driver-{{.OS}}-{{.Arch}}{{.Ext}}",
     "author": "F. Colinet",
     "type": "driver"
+  },
+  {
+    "name": "stdout-exporter",
+    "display_name": "Standard Output",
+    "version": "1.0.0",
+    "supported_platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "linux-arm6",
+      "darwin-amd64",
+      "darwin-arm64",
+      "windows-amd64",
+      "windows-arm64"
+    ],
+    "repository": "https://github.com/Anthill-Software/GatherPipe-Stdout-Exporter",
+    "description": "Affiche les données météo dans le terminal.",
+    "binary_url": "https://github.com/Anthill-Software/GatherPipe-Stdout-Exporter/releases/download/v{{.Version}}/GatherPipe-Stdout-Exporter-{{.OS}}-{{.Arch}}{{.Ext}}",
+    "author": "F. Colinet",
+    "type": "exporter"
   }
 ]
