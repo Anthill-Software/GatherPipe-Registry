@@ -1,5 +1,24 @@
 [
   {
+    "name": "modbustcp-driver",
+    "display_name": "Driver Modbus TCP",
+    "version": "1.0.0",
+    "supported_platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "linux-arm6",
+      "darwin-amd64",
+      "darwin-arm64",
+      "windows-amd64",
+      "windows-arm64"
+    ],
+    "repository": "https://github.com/Anthill-Software/GatherPipe-Modbus-TCP-Driver",
+    "description": "Collecte de données sur une passerelle Modbus TCP.",
+    "binary_url": "https://github.com/Anthill-Software/GatherPipe-Modbus-TCP-Driver/releases/download/v{{.Version}}/GatherPipe-Modbus-TCP-Driver-{{.OS}}-{{.Arch}}{{.Ext}}",
+    "author": "F. Colinet",
+    "type": "driver"
+  },
+  {
     "name": "dummy-driver",
     "display_name": "Input simulator",
     "version": "1.0.0",
